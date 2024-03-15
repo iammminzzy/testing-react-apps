@@ -16,7 +16,7 @@
     "start": "react-scripts start",
     "test": "react-scripts test",
     "test:coverage": "npm run test -- --watchAll=false",
-    "test:exercises": "npm run test -- testing.*exercises\\/ --onlyChanged",
+    "test:exercises": "npm run test -- testing.*exercise\\/ --onlyChanged",
     "test:debug": "react-scripts --inspect-brk test --runInBand --no-cache",
     "format": "prettier \"**/*.+(js|json|less|css|html|ts|tsx|md)\" --write",
     "lint": "eslint .",
